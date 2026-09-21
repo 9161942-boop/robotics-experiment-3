@@ -1,0 +1,391 @@
+{
+  "waypoints": {
+    "initial": {
+      "joints": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gripper": 0.12,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "above_a": {
+      "joints": [
+        0.381727,
+        0.764034,
+        -0.526248,
+        -0.010075,
+        0.022936,
+        -0.008275
+      ],
+      "gripper": 0.12,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "crab": {
+      "joints": [
+        0.391628,
+        1.135358,
+        -1.084524,
+        -0.036887,
+        0.502539,
+        -0.007849
+      ],
+      "gripper": 0.12,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "pick": {
+      "joints": [
+        0.378777,
+        1.373897,
+        -0.753967,
+        -0.016397,
+        -0.173576,
+        0.021847
+      ],
+      "gripper": -0.31,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "release": {
+      "joints": [
+        -0.474322,
+        0.518482,
+        0.08605,
+        -0.03907,
+        0.011445,
+        -0.035163
+      ],
+      "gripper": 0.15,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "lift": {
+      "joints": [
+        0.53,
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gripper": -0.31,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "release_ready": {
+      "joints": [
+        -0.48,
+        1.2,
+        0.23,
+        0.0,
+        -1.41,
+        0.0
+      ],
+      "gripper": -0.31,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "realease_ready": {
+      "joints": [
+        -0.48,
+        1.17,
+        0.27,
+        0.0,
+        -1.37,
+        0.0
+      ],
+      "gripper": -0.14,
+      "pad_effort": 10.0,
+      "duration": 2.0
+    },
+    "initial_2": {
+      "joints": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gripper": -0.31,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "above_pick": {
+      "joints": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gripper": 0.12,
+      "pad_size_mm": 0.0,
+      "duration": 2.0
+    },
+    "00": {
+      "joints": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "above_1": {
+      "joints": [
+        0.462778,
+        0.857538,
+        -1.315241,
+        0.001466,
+        1.243201,
+        0.000229
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "pick_1": {
+      "joints": [
+        0.463072,
+        1.201983,
+        -1.137784,
+        0.001072,
+        0.950278,
+        0.000225
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "First": {
+      "joints": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.5,
+        0.0
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "release_1": {
+      "joints": [
+        -0.604503,
+        -0.054789,
+        0.439149,
+        -0.312198,
+        0.673508,
+        -0.04981
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "above_2": {
+      "joints": [
+        0.546857,
+        1.305398,
+        -1.489149,
+        -0.025331,
+        0.439505,
+        -0.00514
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "pick_2": {
+      "joints": [
+        0.540932,
+        1.833498,
+        -1.536403,
+        -0.006206,
+        -0.049394,
+        -0.005475
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "release_2": {
+      "joints": [
+        -0.389882,
+        0.95526,
+        -0.364041,
+        0.015491,
+        -0.194825,
+        -0.023893
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "crab_3": {
+      "joints": [
+        0.590615,
+        0.993859,
+        -1.368953,
+        0.109138,
+        0.99436,
+        0.013549
+      ],
+      "gripper": 0.15,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "pick_3": {
+      "joints": [
+        0.603241,
+        1.395306,
+        -1.355187,
+        0.0942,
+        0.783663,
+        0.01434
+      ],
+      "gripper": 0.15,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "release_3": {
+      "joints": [
+        -0.559517,
+        0.169212,
+        0.344505,
+        -0.157939,
+        0.302035,
+        -0.045252
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "above_green_1": {
+      "joints": [
+        0.785400,
+        1.539535,
+        -1.214025,
+        0.000000,
+        0.105678,
+        0.000000
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "pick_4": {
+      "joints": [
+        0.785400,
+        1.539535,
+        -1.214025,
+        0.000000,
+        0.105678,
+        0.000000
+      ],
+      "gripper": -0.31,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "release_4": {
+      "joints": [
+        -0.286050,
+        1.156998,
+        -1.110244,
+        0.000000,
+        0.072310,
+        0.000000
+      ],
+      "gripper": 0.15,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "above_green_2": {
+      "joints": [
+        0.674743,
+        1.850861,
+        -1.524542,
+        0.000000,
+        -0.168975,
+        0.000000
+      ],
+      "gripper": 0.15,
+      "pad_effort": -4.0,
+      "duration": 2.0
+    },
+    "pick_5": {
+      "joints": [
+        0.674743,
+        1.850861,
+        -1.524542,
+        0.000000,
+        -0.168975,
+        0.000000
+      ],
+      "gripper": -0.31,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    },
+    "release_5": {
+      "joints": [
+        -0.370890,
+        1.565610,
+        -1.524525,
+        0.000000,
+        -0.168975,
+        0.000000
+      ],
+      "gripper": 0.15,
+      "pad_effort": 0.0,
+      "duration": 2.0
+    }
+  },
+  "sequence": [
+    "initial",
+    "above_1",
+    "pick_1",
+    "First",
+    "release_1",
+    "initial",
+    "above_a",
+    "crab",
+    "pick",
+    "lift",
+    "initial",
+    "release_ready",
+    "release",
+    "initial",
+    "crab_3",
+    "pick_3",
+    "First",
+    "release_3",
+    "initial",
+    "above_2",
+    "pick_2",
+    "First",
+    "release_2",
+    "initial",
+    "above_green_1",
+    "pick_4",
+    "First",
+    "release_4",
+    "initial",
+    "above_green_2",
+    "pick_5",
+    "First",
+    "release_5",
+    "initial"
+  ]
+}
