@@ -14,7 +14,7 @@
 ```bash
 cd code
 source /opt/ros/humble/setup.bash
-colcon build --symlink-install --packages-select mycobot_ros2 mecharm_fixed_pick_sim
+colcon build --symlink-install --packages-select mycobot_description mecharm_fixed_pick_sim
 source install/setup.bash
 ros2 launch mecharm_fixed_pick_sim sorting_gazebo.launch.py gui:=true execute_motion:=false
 ```
