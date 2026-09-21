@@ -9,6 +9,7 @@
 - `report/`：小组实验报告、个人实验报告及 PDF、报告截图和渲染预览。
 - `videos/`：两段实验三 Gazebo 仿真演示视频，分别对应完整自动整理运行过程。
 - `SUBMISSION_CHECKLIST.md`：提交材料与实验要求的对应关系。
+- `SUBMISSION_AUDIT.md`：按任务书逐项核对后的已包含材料、待补项目和提交结论。
 
 ## 构建与运行
 
