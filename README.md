@@ -7,6 +7,7 @@
 - `code/`：ROS 2 工程、Gazebo 世界、URDF、控制器参数、手动控制台、自动播放程序和航点文件。
 - `evidence/`：场景图、网格映射图、抓取与释放过程图、状态流程图、CSV 执行记录和场景配置。
 - `report/`：小组实验报告、个人实验报告及 PDF、报告截图和渲染预览。
+- `videos/`：两段实验三 Gazebo 仿真演示视频，分别对应完整自动整理运行过程。
 - `SUBMISSION_CHECKLIST.md`：提交材料与实验要求的对应关系。
 
 ## 构建与运行
@@ -42,4 +43,4 @@ ros2 run mecharm_fixed_pick_sim manual_control_panel
 
 仓库地址：<https://github.com/9161942-boop/robotics-experiment-3>
 
-提交记录按“工程与证据同步 → 报告和 GitHub 证据补齐”的顺序保留，报告中同时放置仓库链接和提交历史截图。
+提交记录按“工程与证据同步 → 报告和 GitHub 证据补齐 → 仿真视频归档”的顺序保留，报告中同时放置仓库链接和提交历史截图。两段 Gazebo 演示视频位于 `videos/experiment3_gazebo_sorting_run_01.webm` 和 `videos/experiment3_gazebo_sorting_run_02.webm`。
