@@ -13,6 +13,8 @@
 | 检测消息接口 | `sorting_scene_monitor.py`、`sorting_task.py` | 已包含 `vision_msgs/Detection2DArray`，类别、框中心和置信度字段齐全 |
 | 任务控制接口 | `sorting_task.py`、`sorting_executor.py` | 已提供状态与结果反馈主题，属于状态机式等价接口；没有独立 ROS 2 Action Server |
 | 自动整理证据 | `evidence/mecharm_sorting_execution.csv` | 红蓝六目标对象级结果为 6/6 |
+| 三类检测模型 | `models/best_yolov8n_eraser_lock_stapler.pt`、`models/README.md` | 已包含橡皮、锁、订书机 YOLOv8n 权重、训练配置和哈希 |
+| 外接摄像头检测画面 | `evidence/model_detection_realtime.png` | 已包含三类目标同框检测、置信度和 FPS 证据 |
 | 异常处理证据 | `evidence/ERROR_LOG.md`、流程图、过程图 | 已包含 E01-E06 分支摘要；原始异常运行视频仍未归档 |
 | Gazebo 演示视频 | `videos/experiment3_gazebo_sorting_run_01.webm`、`run_02.webm` | 已包含，两段均为仿真视频 |
 | 实验报告 | `report/` | 小组/个人 DOCX、PDF 和 GitHub 截图均已包含 |
@@ -27,14 +29,14 @@
 | 任务开始后自动选择网格和分类区 | `sorting_task.py`、`sorting_executor.py`、自动播放序列 | 已满足仿真设计要求 |
 | 空网格、未识别、不可达、抓取失败等异常 | `ERROR_LOG.md`、E01-E06、状态流程图 | 已实现并有摘要；若要求原始异常录像需补充 |
 | 一个 Launch 启动完整仿真系统 | `sorting_gazebo.launch.py` | 已满足 |
-| 目标检测模型、类别说明和网格配置 | 网格配置和类别映射已包含；实验三仓库没有 `.pt/.onnx` 模型权重和推理说明 | **待补** |
+| 目标检测模型、类别说明和网格配置 | `models/` 中的 YOLOv8n 权重、README、类别说明和网格配置 | 已满足模型材料提交要求；若老师要求部署脚本，需另附推理命令或脚本 |
 | BehaviorTree XML 或状态机配置 | Python 状态机、状态/结果主题和配置文件 | 已有等价实现；如老师指定 XML，需另导出 XML |
 | 仿真与真机演示视频 | 两段 Gazebo 视频已包含；没有真机视频 | **真机部分待补（若课程要求）** |
 | 分类结果、异常记录、任务日志和实验报告 | CSV、`ERROR_LOG.md`、证据图、DOCX/PDF | 已包含 |
 
 ## 3. 仍需补齐的材料
 
-1. **前序目标检测模型和推理说明**：如果按任务书提交真机阶段材料，需要将实际使用的前序模型权重、类别配置、推理命令和模型版本同步到 `models/`。当前仿真检测节点从 Gazebo `ModelStates` 生成确定性 `Detection2DArray`，不能替代真实模型权重。工作区中找到的实验一 `weights/best.pt` 类别为 `mouse/laptop/cup/phone`，与实验三仿真的 `red/blue/green` 类别不一致，因此没有未经确认就复制进本仓库。
+1. **模型权重和推理说明**：已补充实验三实际使用的三类 YOLOv8n 权重、类别配置、训练摘要和 SHA-256。当前仿真检测节点仍从 Gazebo `ModelStates` 生成确定性 `Detection2DArray`，训练权重用于外接摄像头和后续真机感知接入；若老师要求完整推理脚本，再补充脚本和运行命令即可。
 2. **真机验收证据**：需要 Jetson/mechArm 的现场视频、至少六个目标的对象级结果、抓取/放置结果和异常日志。当前报告已明确写成部署计划，不能作为真机实测结果。
 3. **可选增强**：若教师要求“异常演示视频”或“原始终端日志”，还需从录屏/终端导出独立文件；`ERROR_LOG.md` 目前是规则和调试摘要。
 

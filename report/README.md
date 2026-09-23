@@ -7,4 +7,4 @@ This directory contains the Group 17 group and personal laboratory reports in DO
 - `experiment3_lab_report_group17_en.docx` / `experiment3_lab_report_group17_en.pdf`: English group laboratory report.
 - `experiment3_personal_report_yangmuqing_en.docx` / `experiment3_personal_report_yangmuqing_en.pdf`: English personal laboratory report.
 
-The editable flow diagrams in the English reports are translated and redrawn in English. Gazebo, GUI, and GitHub screenshots are retained as original run evidence.
+The editable flow diagrams in the English reports are translated and redrawn in English. Gazebo, GUI, GitHub, and external-camera detection screenshots are retained as original run evidence. The three-class YOLOv8n weight is archived under `models/`.
