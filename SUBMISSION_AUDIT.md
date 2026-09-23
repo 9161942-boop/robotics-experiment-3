@@ -18,7 +18,7 @@
 | 异常处理证据 | `evidence/ERROR_LOG.md`、流程图、过程图 | 已包含 E01-E06 分支摘要；原始异常运行视频仍未归档 |
 | Gazebo 演示视频 | `videos/experiment3_gazebo_sorting_run_01.webm`、`run_02.webm` | 已包含，两段均为仿真视频 |
 | 实验报告 | `report/` | 小组/个人 DOCX、PDF 和 GitHub 截图均已包含 |
-| GitHub 同步 | GitHub `main` | 已同步，保留 8 次提交记录 |
+| GitHub 同步 | GitHub `main` | 已同步，当前 `main` 保留 20 次提交记录；报告内附提交历史截图 |
 
 ## 2. 与任务书逐项对照
 
