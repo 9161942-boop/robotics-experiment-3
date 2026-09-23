@@ -1,3 +1,10 @@
-# 实验三报告
+# Experiment 3 Reports
 
-本目录包含第17组小组实验报告和杨牧青个人实验报告的 DOCX/PDF 版本，并保留报告渲染页截图。两份报告均说明了实验要求、分工、实现原理、问题处理、结果边界和 GitHub 提交记录。对应的 Gazebo 仿真演示视频已归档在仓库根目录的 `videos/` 中。
+This directory contains the Group 17 group and personal laboratory reports in DOCX and PDF formats. The reports document the requirements, responsibilities, implementation principles, problem handling, result boundaries, and GitHub submission history. The corresponding Gazebo simulation videos are archived under `videos/`.
+
+## English reports
+
+- `experiment3_lab_report_group17_en.docx` / `experiment3_lab_report_group17_en.pdf`: English group laboratory report.
+- `experiment3_personal_report_yangmuqing_en.docx` / `experiment3_personal_report_yangmuqing_en.pdf`: English personal laboratory report.
+
+The editable flow diagrams in the English reports are translated and redrawn in English. Gazebo, GUI, and GitHub screenshots are retained as original run evidence.
