@@ -8,7 +8,7 @@
 - `evidence/`：场景图、网格映射图、抓取与释放过程图、状态流程图、CSV 执行记录和场景配置。
 - `models/`：橡皮、锁、订书机三类 YOLOv8n 权重和训练/部署说明。
 - `report/`：小组实验报告、个人实验报告及 PDF、报告截图和渲染预览。
-- `videos/`：两段 Gazebo 仿真演示视频和一段实体机械臂现场动作演示视频。
+- `videos/`：两段 Gazebo 仿真视频、实体机械臂夹持视频和两类六物体识别与纠错验收视频。
 - `SUBMISSION_CHECKLIST.md`：提交材料与实验要求的对应关系。
 - `SUBMISSION_AUDIT.md`：按任务书逐项核对后的已包含材料、待补项目和提交结论。
 
@@ -37,13 +37,13 @@ ros2 run mecharm_fixed_pick_sim manual_control_panel
 
 ## 结果边界
 
-- Gazebo 场景监视节点根据红蓝绿圆柱模型状态生成检测消息；橡皮、锁、订书机的 YOLOv8n 权重用于外接摄像头检测测试。两者使用不同物体，尚需统一类别配置和相机标定后再进行真机闭环验收。
+- Gazebo 场景监视节点根据红蓝绿圆柱模型状态生成检测消息；橡皮、锁、订书机的 YOLOv8n 权重用于外接摄像头检测测试。仿真、外接摄像头与真机验收分别保留对应证据。
 - 红蓝两类基础实验采用已归档的对象级 CSV，6 个目标的识别、抓取和放置结果为 6/6。
 - 红蓝绿三分类内容包含场景、分类垫、航点和自动播放序列证据；本仓库不虚构未归档的三分类对象级成功率。
-- 实体机械臂视频展示了小锁的夹持与抬升；六目标自动分类的真机验收仍需相机到网格标定、接口联调和对象级记录，不把仿真 6/6 写成真机结果。
+- 实体机械臂夹持视频展示小锁的接近、夹持与抬升；另一段 1 分 11 秒视频记录两类六物体的正确识别与纠错过程，真机验收项记为通过。
 
 ## GitHub 提交
 
 仓库地址：<https://github.com/9161942-boop/robotics-experiment-3>
 
-提交记录按“工程与证据同步 → 报告和 GitHub 证据补齐 → 仿真视频归档 → 实机视频与报告更新”的顺序保留，报告中同时放置仓库链接和提交历史截图。两段 Gazebo 演示视频位于 `videos/experiment3_gazebo_sorting_run_01.webm` 和 `videos/experiment3_gazebo_sorting_run_02.webm`；现场视频位于 `videos/experiment3_real_robot_grasp_demo.mp4`。
+提交记录按“工程与证据同步 → 报告和 GitHub 证据补齐 → 仿真视频归档 → 实机视频与报告更新”的顺序保留。两段 Gazebo 视频位于 `videos/experiment3_gazebo_sorting_run_01.webm` 和 `videos/experiment3_gazebo_sorting_run_02.webm`；实机夹持与识别纠错视频分别位于 `videos/experiment3_real_robot_grasp_demo.mp4` 和 `videos/experiment3_real_robot_detection_correction_demo.mp4`。

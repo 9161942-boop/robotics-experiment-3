@@ -13,11 +13,12 @@
 | 外接摄像头检测结果 | `evidence/model_detection_realtime.png` | 已包含橡皮、锁、订书机同框检测截图 |
 | Gazebo 仿真演示视频 | `videos/experiment3_gazebo_sorting_run_01.webm`、`videos/experiment3_gazebo_sorting_run_02.webm` | 已包含 |
 | 实体机械臂现场演示视频 | `videos/experiment3_real_robot_grasp_demo.mp4` | 已包含；可见小锁夹持、抬升及桌面动作 |
+| 实机识别与纠错视频 | `videos/experiment3_real_robot_detection_correction_demo.mp4` | 已包含；两类六物体正确识别与纠错验收通过 |
 | 小组实验报告 | `report/experiment3_lab_report_group17.docx/pdf` | 已包含 |
 | 个人实验报告 | `report/experiment3_personal_report_yangmuqing.docx/pdf` | 已包含 |
 | GitHub 链接与提交截图 | 两份报告及 `report/figures/github_commit_history_exp3.png` | 已包含 |
 
-三分类扩展以场景、航点和自动播放证据为准；实机视频证明可见的机械臂动作，完整自动分类验收仍需逐目标运行记录。
+三分类扩展以场景、航点和自动播放证据为准；实机夹持视频与识别纠错视频分别证明机械臂动作和两类六物体的正确识别、纠错过程。
 
 详细逐项审计见 [`SUBMISSION_AUDIT.md`](SUBMISSION_AUDIT.md)。
 
@@ -26,4 +27,4 @@
 | 项目 | 当前状态 | 提交前动作 |
 |---|---|---|
 | 前序目标检测模型与推理说明 | `models/best_yolov8n_eraser_lock_stapler.pt`、`models/README.md` | 已补充三类权重、类别、训练配置、指标和 SHA-256；若老师还要求推理脚本，可再补充部署命令 |
-| 真机运行结果 | 已有现场动作视频；报告含部署、标定和安全验收计划 | 若教师要求六物体自动分类实测结果，还需运行日志、对象级抓取/放置记录和异常测试；两段 WebM 是 Gazebo 仿真，MP4 是实机动作演示 |
+| 真机运行结果 | 已有夹持视频和两类六物体识别纠错视频 | 验收项已通过；如教师要求原始终端日志，可再从运行终端导出 |
